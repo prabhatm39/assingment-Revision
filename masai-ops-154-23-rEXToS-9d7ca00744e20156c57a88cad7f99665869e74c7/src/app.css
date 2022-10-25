@@ -1,0 +1,25 @@
+*{
+    margin: auto;
+    text-align: center;
+}
+.books-container-title{
+    text-align: center;
+}
+.books-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    width: 70%;
+  
+}
+button{
+ justify-content: center;
+ margin-top: 1rem;
+ margin-bottom: 1.5rem;
+ padding: 0.7rem 2.5rem 0.7rem 2.5rem;
+ border-radius: 5px;
+ color: white;
+ background: black;
+ font-size: 15px;
+ font-weight: 600;
+}
